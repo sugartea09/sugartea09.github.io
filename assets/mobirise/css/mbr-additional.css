@@ -588,7 +588,8 @@ a:hover,
   color: #efefef;
 }
 #content1-9 H1 {
-  font-size: 25px;
+  font-size: 21px;
+  text-align: center;
 }
 #content1-9 P {
   text-align: left;
@@ -596,6 +597,9 @@ a:hover,
 }
 #content1-9 H4 {
   text-align: center;
+}
+#content1-9 I {
+  font-size: 21px;
 }
 #form2-g .btn {
   font-size: 15px;

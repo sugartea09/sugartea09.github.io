@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Next Level",
+    "name": "Northency",
     "currentPage": "index.html",
     "theme": {
       "name": "clarus",
@@ -26,13 +26,18 @@
     "siteFonts": [],
     "uniqCompNum": 17,
     "versionPublish": "4.8.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32.png",
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "seo-meta": "",
+    "globalfooter": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Northency's Welcome Page",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -98,14 +103,16 @@
             "fontColor": "#0779ec",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-3\">About us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Trader tool</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo_transparent-128x128.png",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "alt": "Northency",
+              "link": "https://northency.ca",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
@@ -140,10 +147,13 @@
           "media": {
             "image": {
               "class": "mbr-figure__img",
-              "src": "@THEME_PATH@/components/_images/info.jpg"
+              "src": "@PROJECT_PATH@/assets/images/team-3373638-1920-1920x1255.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
             },
             "video": {
-              "active": true,
               "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
@@ -241,9 +251,9 @@
           "title": "Northency is",
           "text": "High-qualified developers team that realize your dreams into tons of code and prevent wasting of time and money.",
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">i have the idea to develop</a>",
-          "text1": "<span class=\"etl-icon icon-lightbulb mbr-iconfont mbr-iconfont-btn\"></span>You create the idea.<br>",
-          "text2": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>We build the right tool",
-          "text3": "<span class=\"etl-icon icon-profile-male mbr-iconfont mbr-iconfont-btn\"></span>Your company uses the application",
+          "text1": "<span class=\"etl-icon icon-lightbulb mbr-iconfont mbr-iconfont-btn\"></span>You create the idea<br>",
+          "text2": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>We build the right tool (cross-platform for all computer or mobile devices)",
+          "text3": "<span class=\"etl-icon icon-profile-male mbr-iconfont mbr-iconfont-btn\"></span>You enjoy the experience with right tools we've created",
           "_tags": [
             "Theme"
           ],
@@ -412,8 +422,8 @@
               "size": 0
             }
           },
-          "title": "Northency is a <i>Trader Tool</i>",
-          "text": "We run a<b>&nbsp;Trader Tool</b>&nbsp;(<b>PaaS</b>* <b>service</b>) to business companies and provide the easiest tool for crypto-currency analysis, 10+ checks and recommendations.<br>Public version will be released in 6 months.<br><br>* Platform as a Service",
+          "title": "Northency is a Crypto<i>TraderTool</i>",
+          "text": "We run a<b>&nbsp;CryptoTraderTool</b>&nbsp;(<b>PaaS</b>*) to business companies and provide the easiest tool for crypto-currency analysis, 14+ checks and trading recommendations.<br>Public version will be released in 6 months.<br><br>* Platform as a Service",
           "title1": "Cross platform",
           "title2": "99,9% uptime",
           "title3": "24 languages",
@@ -422,9 +432,9 @@
           "title6": "user friendly",
           "text1": "We have web, desktop (PC, Mac OS X, Ubuntu) and mobile versions of app.<br>All apps provide the same functionality.",
           "text2": "That is possible only with a mix of pro team members and reliable data center (Tier 2), geo-redundant.<br>PaaS works 24/7, 365 days/year.",
-          "text3": "24 languages to make you feel comfortable when Users use the app.<br>3 languages support (English, French, Spanish)",
+          "text3": "24 languages to make you feel comfortable using the app.<br>3 languages support (English, French, Spanish)",
           "text4": "Average profit is 40%.<br>And yes, that's an average!",
-          "text5": "Robots work when you sleep. They anylise the market and give you recommendations.<br>You make the decision, not AI.",
+          "text5": "Robots work when you sleep. You receive recommendations and updates 24/7. <br>",
           "text6": "A user friendly interface, tutorials and Wiki to make you feel safe and comfortable.",
           "_tags": [
             "Theme"
@@ -433,7 +443,8 @@
           "_anchor": "content1-9",
           "_styles": {
             "H1": {
-              "font-size": "25px"
+              "font-size": "21px",
+              "text-align": "center"
             },
             "P": {
               "text-align": "left",
@@ -441,6 +452,9 @@
             },
             "H4": {
               "text-align": "center"
+            },
+            "I": {
+              "font-size": "21px"
             }
           }
         },
@@ -458,7 +472,7 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "title": "Get notified about TT's public release",
+          "title": "Get notified about CTT's public release",
           "text": "Ut euismod odio metus, non volutpat elit varius eu. Sed blandit ligula id sodales hendrerit. Vivamus molestie massa",
           "form": {
             "action": "sugartea624@yahoo.com",
@@ -578,7 +592,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "<span style=\"font-weight: normal;\">© 201</span>9 Northegcy<br>All rights reserved.&nbsp;",
+          "copyright": "<span style=\"font-weight: normal;\">© 201</span>9 Northency,<br>22 King Street W, Suite 304,&nbsp;Oshawa, ON,&nbsp;L1H 1A1<br>All rights reserved.&nbsp;",
           "_tags": [
             "Theme"
           ],
