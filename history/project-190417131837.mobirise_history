@@ -24,16 +24,14 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 19,
+    "uniqCompNum": 17,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32.png",
     "noImageResize": "",
     "scrollAnimation": "",
     "seo-meta": "",
-    "globalfooter": "",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Dwayne/Documents"
+    "globalfooter": ""
   },
   "pages": {
     "index.html": {
@@ -96,7 +94,7 @@
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "sticky": true,
             "transparent": true,
             "bgColor": "#efefef",
@@ -105,15 +103,16 @@
             "fontColor": "#0779ec",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-3\">About us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-9\">Trader tool</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-h\">CONTACT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-3\">About us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Trader tool</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo_small%20(2)-460x104.png",
+              "src": "@PROJECT_PATH@/assets/images/logo_transparent-128x128.png",
               "height": 128,
               "alt": "Northency",
               "link": "https://northency.ca",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
@@ -463,11 +462,6 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
-            "showTitle": true,
-            "showText": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#333333",
             "bgVideoRadio": false,
@@ -478,73 +472,10 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "title": "Do you have any questions?",
-          "text": "Let us know about it!",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "text1",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#efefef"
-            }
-          },
-          "_anchor": "text1-i"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "showTitle": true,
-            "showText": true,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
-            "googleMap": {
-              "address": "22 King Street W, Suite 304, Oshawa, ON, L1H 1A1",
-              "placeId": "Ei0zMDQsIDIyIEtpbmcgU3QgVywgT3NoYXdhLCBPTiBMMUggMUEzLCBDYW5hZGEiHxodChYKFAoSCb_XuMzmHNWJEcp3wYBNPTljEgMzMDQ",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 320,
-              "src": "@THEME_PATH@/components/_images/about.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "Do you have any questions?",
-          "text": "Let us know about it!",
-          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
-          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
-          "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
-          "text1": "319 Clematis St.  Suite 100",
-          "text2": "<a href=\"mailto:sample@sample.com\">sample@sample.com</a>",
-          "text3": "<a href=\"tel:+138 (095) 6526 538\">+138 (095) 6526 538</a>",
+          "title": "Get notified about CTT's public release",
+          "text": "Ut euismod odio metus, non volutpat elit varius eu. Sed blandit ligula id sodales hendrerit. Vivamus molestie massa",
           "form": {
-            "title": "MESSAGE",
-            "action": "mike.nurkich@northency.com",
+            "action": "sugartea624@yahoo.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -560,28 +491,21 @@
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": true,
+                "visible": false,
                 "title": "Phone",
-                "customTitle": "Phone*"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Text message. Please explain why your business needs our services or Trader Tool."
+                "customTitle": "Phone"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">contact us</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"input-send btn btn-primary\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">send message</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts2",
-          "_anchor": "contacts2-h",
+          "_name": "form2",
+          "_anchor": "form2-g",
           "_styles": {
-            "P": {
-              "color": "#000000"
-            },
             ".btn": {
-              "font-size": "12px"
+              "font-size": "15px"
             }
           }
         },
