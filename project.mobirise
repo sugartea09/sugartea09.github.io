@@ -544,7 +544,7 @@
             "title": "MESSAGE",
             "action": "mike.nurkich@northency.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for filling out form! We'll contact with you shortly."
             },
             "fields": {
               "name": {
